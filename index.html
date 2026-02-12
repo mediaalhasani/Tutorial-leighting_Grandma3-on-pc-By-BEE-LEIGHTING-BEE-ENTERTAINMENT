@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panduan grandMA3 by BEELEIGHTING</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif}
+body{background:#0b1120;color:#e2e8f0;overflow-x:hidden}
+header{padding:80px 20px;text-align:center;background:linear-gradient(135deg,#0f172a,#1e293b)}
+.logo{font-size:48px;font-weight:900;letter-spacing:2px;background:linear-gradient(90deg,#38bdf8,#facc15);-webkit-background-clip:text;color:transparent}
+.subtitle{margin-top:15px;color:#94a3b8;font-size:18px}
+nav{position:sticky;top:0;background:#0f172a;padding:15px;text-align:center;border-bottom:1px solid #1e293b;z-index:100}
+nav a{color:#38bdf8;text-decoration:none;margin:0 12px;font-weight:600;font-size:14px}
+nav a:hover{color:#facc15}
+section{padding:70px 20px;max-width:1300px;margin:auto}
+section h2{font-size:30px;margin-bottom:30px;color:#38bdf8;text-align:center}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:25px}
+.card{background:#1e293b;padding:25px;border-radius:16px;box-shadow:0 15px 35px rgba(0,0,0,.4);transition:.3s}
+.card:hover{transform:translateY(-6px)}
+.card h3{margin-bottom:12px;color:#facc15;font-size:18px}
+.card p{color:#cbd5e1;font-size:14px;line-height:1.6}
+footer{background:#0f172a;text-align:center;padding:40px;margin-top:60px;border-top:1px solid #1e293b;color:#64748b}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">BEELEIGHTING</div>
+<div class="subtitle">Panduan Lengkap grandMA3 – Versi Web Dokumentasi Sistem</div>
+</header>
+
+<nav>
+<a href="#overview">Overview</a>
+<a href="#device">Device</a>
+<a href="#system">System</a>
+<a href="#workspace">Workspace</a>
+<a href="#command">Command</a>
+<a href="#patch">Patch</a>
+<a href="#operate">Operate</a>
+<a href="#preset">Preset</a>
+<a href="#cue">Cue</a>
+<a href="#executor">Executor</a>
+<a href="#phaser">Phaser</a>
+<a href="#macro">Macro</a>
+<a href="#network">Network</a>
+<a href="#systemmenu">System Menu</a>
+<a href="#trouble">Troubleshooting</a>
+</nav>
+
+<section id="overview">
+<h2>1. grandMA3 User Manual Overview</h2>
+<div class="grid">
+<div class="card"><h3>Hal Baru Versi 2.3</h3><p>Update executor assignment, message center status icon, filter rules, net duct MA-Net3, keyword baru (FastSync, Learn, ReSync), dan option keyword tambahan.</p></div>
+<div class="card"><h3>About Help</h3><p>Context sensitive help, search tab, breadcrumb navigation, command bot, dan dokumentasi berbasis PDF & web.</p></div>
+<div class="card"><h3>Release Notes</h3><p>Setiap update software membawa peningkatan stabilitas, fitur tambahan, serta perbaikan bug sistem.</p></div>
+</div>
+</section>
+
+<section id="device">
+<h2>2. Device Overview</h2>
+<div class="grid">
+<div class="card"><h3>Console Series</h3><p>grandMA3 full-size, light, compact XT, compact, onPC command wing.</p></div>
+<div class="card"><h3>Processing Unit</h3><p>PU L, PU XL untuk ekspansi parameter dan sistem redundansi.</p></div>
+<div class="card"><h3>Node</h3><p>grandMA3 Node 2Port, 4Port, 8Port untuk distribusi DMX via jaringan.</p></div>
+<div class="card"><h3>onPC System</h3><p>Software versi Windows/macOS untuk preprogramming dan backup show.</p></div>
+</div>
+</section>
+
+<section id="system">
+<h2>3. System Overview</h2>
+<div class="grid">
+<div class="card"><h3>Single User</h3><p>Mode operasi satu console dalam satu session.</p></div>
+<div class="card"><h3>Multi User</h3><p>Beberapa station dalam satu session dengan sinkronisasi realtime.</p></div>
+<div class="card"><h3>MA-Net3</h3><p>Protokol jaringan utama untuk komunikasi antar perangkat grandMA3.</p></div>
+<div class="card"><h3>Session & IP</h3><p>Pengaturan alamat IP, interface jaringan, dan prioritas master.</p></div>
+</div>
+</section>
+
+<section id="workspace">
+<h2>4. Workspace & Window</h2>
+<div class="grid">
+<div class="card"><h3>Screen Configuration</h3><p>Custom layout monitor, encoder bar, command line, dan view bar.</p></div>
+<div class="card"><h3>Views</h3><p>Menyimpan konfigurasi window untuk workflow cepat.</p></div>
+<div class="card"><h3>Sheets</h3><p>Fixture sheet, group sheet, preset sheet, sequence sheet.</p></div>
+<div class="card"><h3>Layout View</h3><p>Tampilan visual untuk control interaktif dan touch programming.</p></div>
+</div>
+</section>
+
+<section id="command">
+<h2>5. Command Syntax</h2>
+<div class="grid">
+<div class="card"><h3>Keyword</h3><p>Store, Delete, Copy, Move, Assign, Label, Select, Clear.</p></div>
+<div class="card"><h3>Option Keyword</h3><p>/Merge, /Overwrite, /Remove, /HighPrecision, /OddEven.</p></div>
+<div class="card"><h3>Command Line</h3><p>Struktur Parent-Child, penggunaan Please, dan history command.</p></div>
+</div>
+</section>
+
+<section id="patch">
+<h2>6. Patch & Fixture Setup</h2>
+<div class="grid">
+<div class="card"><h3>Tambah Fixture</h3><p>Pilih library fixture, atur mode, dan alamat DMX.</p></div>
+<div class="card"><h3>Universe</h3><p>Manajemen universe dan distribusi output node.</p></div>
+<div class="card"><h3>Fixture Type</h3><p>Edit atau buat fixture type custom.</p></div>
+</div>
+</section>
+
+<section id="operate">
+<h2>7. Operate Fixture</h2>
+<div class="grid">
+<div class="card"><h3>Selection</h3><p>Manual selection, group selection, world & filter usage.</p></div>
+<div class="card"><h3>Attribute Control</h3><p>Dimmer, Color, Position, Gobo, Beam, Focus.</p></div>
+</div>
+</section>
+
+<section id="preset">
+<h2>8. Preset & Data Pool</h2>
+<div class="grid">
+<div class="card"><h3>Preset Pool</h3><p>Color, Position, Beam, Focus, Control preset structure.</p></div>
+<div class="card"><h3>Appearance</h3><p>Custom icon, scribble, color coding preset.</p></div>
+</div>
+</section>
+
+<section id="cue">
+<h2>9. Cue & Sequence</h2>
+<div class="grid">
+<div class="card"><h3>Record Cue</h3><p>Store cue dengan timing, fade, delay.</p></div>
+<div class="card"><h3>Tracking</h3><p>Tracking system dan cue only control.</p></div>
+<div class="card"><h3>Recipe</h3><p>Dynamic cue berbasis preset & group.</p></div>
+</div>
+</section>
+
+<section id="executor">
+<h2>10. Executor & Master</h2>
+<div class="grid">
+<div class="card"><h3>Assign Function</h3><p>Assign sequence, macro, temp, flash, toggle.</p></div>
+<div class="card"><h3>Fader Control</h3><p>Grand Master, Speed Master, Rate Master.</p></div>
+</div>
+</section>
+
+<section id="phaser">
+<h2>11. Phaser & MAtricks</h2>
+<div class="grid">
+<div class="card"><h3>Phaser Engine</h3><p>Step, Phase, Width, Speed control.</p></div>
+<div class="card"><h3>MAtricks</h3><p>Wings, Block, Shuffle, Delay distribution.</p></div>
+</div>
+</section>
+
+<section id="macro">
+<h2>12. Macro, Plugin & Timecode</h2>
+<div class="grid">
+<div class="card"><h3>Macro</h3><p>Automasi command untuk workflow cepat.</p></div>
+<div class="card"><h3>Plugin Lua</h3><p>Script Lua untuk custom tool dan system automation.</p></div>
+<div class="card"><h3>Timecode Show</h3><p>Sinkronisasi cue dengan timeline audio/video.</p></div>
+</div>
+</section>
+
+<section id="network">
+<h2>13. Networking & Remote</h2>
+<div class="grid">
+<div class="card"><h3>Session Control</h3><p>Join session, invite station, backup system.</p></div>
+<div class="card"><h3>RDM</h3><p>Remote Device Management untuk konfigurasi fixture.</p></div>
+<div class="card"><h3>Remote In/Out</h3><p>MIDI, OSC, dan kontrol eksternal lainnya.</p></div>
+</div>
+</section>
+
+<section id="systemmenu">
+<h2>14. System Menu</h2>
+<div class="grid">
+<div class="card"><h3>User Profile</h3><p>Pengaturan preferensi user dan encoder.</p></div>
+<div class="card"><h3>Update Software</h3><p>Prosedur update dan clean start.</p></div>
+<div class="card"><h3>Backup & Export</h3><p>Manajemen file show dan export data.</p></div>
+</div>
+</section>
+
+<section id="trouble">
+<h2>15. Troubleshooting</h2>
+<div class="grid">
+<div class="card"><h3>Clean Start</h3><p>Reset sistem tanpa menghapus show.</p></div>
+<div class="card"><h3>Network Error</h3><p>Diagnosa IP conflict dan device offline.</p></div>
+<div class="card"><h3>Fixture Not Respond</h3><p>Cek patch, universe, dan output node.</p></div>
+</div>
+</section>
+
+<footer>
+© 2026 BEELEIGHTING | Dokumentasi grandMA3 Versi Web Lengkap
+</footer>
+
+</body>
+</html>
